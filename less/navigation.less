@@ -3,19 +3,17 @@
 .navigation {
 
     background-color: @nav-bg;
-    @media @phone {
-        
-        width: 80%;
-
-    }
+   .flex();
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 
     h1{
         font-size: 3.4rem;
         margin-top: 10px;
     }
-    .flex();
-    flex-direction: column;
-    align-items: center;
+    
+   
 
     nav{
         .flex();
@@ -24,7 +22,7 @@
     a {
         text-decoration: none;
         font-size: 2rem;
-        color: @river-bend;
+        color: @nav-font;
         margin:15px 10px ;
     }
 }
